@@ -1,0 +1,32 @@
+.header {
+  background: $dark-blue;
+}
+
+.header__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header__title {
+  // color: white;
+  text-decoration: none;
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+// .demo-layout-transparent {
+//   background: url('/images/bg.jpg') center / cover;
+// }
+// .demo-layout-transparent .mdl-layout__header,
+// .demo-layout-transparent .mdl-layout__drawer-button {
+//   /* This background is dark, so we set text to white. Use 87% black instead if
+//      your background is light. */
+//   color: white;
+// }
+// .mdl-layout__header-row{
+//
+// }

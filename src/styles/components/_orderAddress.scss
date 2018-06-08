@@ -1,0 +1,23 @@
+.tab_div_1{
+  margin: 10px;
+  align-content: center;
+  align-self: center;
+}
+
+.box-layout__address_display{
+  float: right;
+  background: fade-out(#82E0AA, .15);
+  border-radius: 3px;
+  padding: $l-size $m-size;
+  text-align: center;
+  width: 40rem;
+}
+
+.box-layout__address {
+  float: left;
+  background: fade-out(#FD6A4A, .15);
+  border-radius: 3px;
+  padding: $m-size $m-size;
+  text-align: center;
+  width: 40rem;
+}
