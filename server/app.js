@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const cookieSession = require('cookie-session');
 
-const keys = require('./config/keys.js');
+// const keys = require('./config/keys.js');
 
 var app = express();
 var users = require('./routes/users');
@@ -21,7 +21,7 @@ app.set('view engine', 'jade');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, '../public')));
-app.use(cookieSession({maxAge: 30 * 24 * 60 * 60 * 1000,keys: [keys.cookieKey],}))
+// app.use(cookieSession({maxAge: 30 * 24 * 60 * 60 * 1000,keys: [keys.cookieKey],}))
 app.use(cookieParser());
 
 // Database Connection
